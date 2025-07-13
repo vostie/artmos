@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Artmos Solutions </title>  
+    <title>Artmos Solutions</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,7 +21,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
@@ -57,7 +57,7 @@
 				<div class="col-md-6 col-sm-6">
 					<div class="left-top">
 						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> artmossolutions@gmail.com</a>
+							<a href="artmossolutions@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> artmossolutions@gmail.com</a>
 						</div>
 						<div class="phone-box">
 							<a href="tel:254724217497"><i class="fa fa-phone" aria-hidden="true"></i> +254 724 217 497</a>
@@ -99,9 +99,9 @@
                         <li><a href="services.html">Our Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="features.html">Features</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a class="active" href="careers.html">Careers</a></li>
                         <!--<li><a href="pricing.html">Pricing</a></li>-->
-						<li><a class="active" href="faq.html">Faq</a></li>
+						<li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -113,10 +113,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner">
-						<h2>Faq</h2>
+						<h2>Careers</h2>
 						<ul class="page-title-link">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="faq.html">Faq</a></li>
+							<li><a href="careers.html">Careers</a></li>
 						</ul>
 					</div>
 				</div>
@@ -124,14 +124,31 @@
 		</div>
 	</div>
 
-    <div id="contact" class="section wb">
+    <div id="test-box" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>How can we help you</h3>
-                <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have million of website owners who happy to work with us!</p>
+                <h3>Careers</h3>
+                <p class="lead">We thanks for all your interest in working with us! We currently have no open positions!
+                    <br>Keep checking our career sections for future position at Artmos Solutions!</p>
             </div><!-- end title -->
 
-           
+            
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Our Clients</h3>
+                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers!
+                    <br>Let's see what others say about Artmos Solutions!</p>
+            </div><!-- end title -->
+
+            <hr class="hr1">
+
+            
+
         </div><!-- end container -->
     </div><!-- end section -->
 
@@ -143,8 +160,10 @@
                         <div class="widget-title">
                             <img src="images/logos/logo-2.png" alt="" />
                         </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
-                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <p>Beside the hardware and network solutions; with design and development expertise in diverse platforms,
+                            best-of-breed tools and techniques, combined with industry best practices,</p>
+                        <p>Artmos Solutions offers scalable end-to-end application development and management solutions from
+                            requirement analysis for deployment and rollout.</p>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
@@ -169,7 +188,10 @@
                     <div class="footer-distributed widget clearfix">
                         <div class="widget-title">
                             <h3>Subscribe</h3>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which one know this tricks.</p>
+                            <p>Artmos closely works for establishing business setup at Kenya and East Africa market.
+                                Targeted companies are jointly involved in providing various systems and solutions to
+                                different economic sectors and are considered as one of the fastest growing and leading
+                                solution provider company.</p>
                         </div>
 						
 						<div class="footer-right">
@@ -188,8 +210,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">Artmos</a> Design By : 
-					<a href="https://artmos.co.ke/">artmos solutions</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy;<script>document.write(new Date().getFullYear());</script> <a href="#"> | Artmos</a> Design By :
+					<a href="https://html.design/">artmos solutions</a></p>
                 </div>
 
                 

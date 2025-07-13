@@ -57,7 +57,7 @@
 				<div class="col-md-6 col-sm-6">
 					<div class="left-top">
 						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> artmossolutions@gmail.com</a>
+							<a href="mailto:artmossolutions@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> artmossolutions@gmail.com</a>
 						</div>
 						<div class="phone-box">
 							<a href="tel:254724217497"><i class="fa fa-phone" aria-hidden="true"></i> +254 724 217 497</a>
@@ -100,8 +100,8 @@
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="features.html">Features</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li>
-                        <!--<li><a href="pricing.html">Pricing</a></li>-->
-						<li><a class="active" href="faq.html">Faq</a></li>
+                       <!-- <li><a href="pricing.html">Pricing</a></li>-->
+						<li><a class="active" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -113,10 +113,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner">
-						<h2>Faq</h2>
+						<h2>Contact</h2>
 						<ul class="page-title-link">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="faq.html">Faq</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -127,11 +127,101 @@
     <div id="contact" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>How can we help you</h3>
-                <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>We have million of website owners who happy to work with us!</p>
+                <h3>Get in touch</h3>
+                <p class="lead">Let us give you more details about the special offer for  website you want us. 
+				Please fill out the form below. <br>We have excellent staffs who are happy to work with you!</p>
             </div><!-- end title -->
 
-           
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                            <fieldset class="row-fluid">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" required "">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" required "">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required "">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required "">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label class="sr-only">Select Service</label>
+                                    <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
+                                        <option value="Select a Service">Select a Service</option>  
+										<option value="Installation Service">Installation Service</option>
+                                        <option value="Web Design">Web Design & Development</option>
+                                        <option value="Web Development">Web Development</option>
+                                        <option value="Graphic Design">Graphic Design</option>
+										<option value="Software Development">Software Development</option>
+										<option value="SEO">SEO/SEM</option>
+										<option value="Cloud Computing">Cloud Computing</option>
+										<option value="Web Hosting">Web Hosting</option>
+										<option value="Logo Design">Logo Design</option>
+										<option value="CCTV Cameras">CCTV Cameras</option>
+										<option value="Access Control">Access Control</option>
+										<option value="Structured cabling">Structured Cabling</option>
+										<option value="Networking">Networking</option>
+										<option value="Computers">Computers</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </div>
+                                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label class="sr-only">What is max price?</label>
+                                    <select name="select_price" id="select_price" class="selectpicker form-control" data-style="btn-white">
+                                       <option value="Select your price">Select your Price</option>                                       
+									   <option value="Ksh10000 - Ksh20000">Ksh10,000 - Ksh20,000</option>
+                                        <option value="Ksh20000 - Ksh40000">Ksh20,000 - Ksh40,000</option>
+                                        <option value="Ksh40000 - Ksh100000">Ksh40,000 - Ksh100,000</option>
+                                    </select>
+                                </div>-->
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.." required ""></textarea>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+			<div class="row">
+				<div class="col-md-offset-1 col-sm-10 col-md-12 col-sm-offset-1 pd-add">
+					<div class="address">
+						<div class="address-icon">
+							<i class="icon icon-location2"></i>
+						</div>
+						<h3>Location</h3>
+                            <p>Blessed House<br>
+                        P.O.Box.9614-00300<br>Nairobi,Kenya<br>Ngala Road Opposite Kobil<p>
+					</div>
+					<div class="address">
+						<div class="address-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<h3>Email Us</h3>
+                            <p>info@artmos.co.ke
+                                <br>artmossolutions@gmail.com<p>
+					</div>
+					<div class="address">
+						<div class="address-icon">
+							<i class="icon icon-headphones"></i>
+						</div>
+						<h3>Call Us</h3>
+                        <p>0738 731 825
+                          <br>0738 731 825</p>
+					</div>
+
+				</div>
+			</div><!-- end row -->
+			
         </div><!-- end container -->
     </div><!-- end section -->
 
@@ -143,8 +233,10 @@
                         <div class="widget-title">
                             <img src="images/logos/logo-2.png" alt="" />
                         </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
-                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <p> Beside the hardware and network solutions; with design and development expertise in diverse
+                            platforms, best-of-breed tools and techniques, combined with industry best practices, .
+                        <p>Artmos Solutions offers scalable end-to-end application development and management
+                         solutions from requirement analysis for deployment and rollout.</p>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
@@ -169,7 +261,8 @@
                     <div class="footer-distributed widget clearfix">
                         <div class="widget-title">
                             <h3>Subscribe</h3>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which one know this tricks.</p>
+							<p>We are developing software, related to garments- production management,
+                                commercial jobs, buying, accounting software for trading, manufacturing house and conglomerates.</p>
                         </div>
 						
 						<div class="footer-right">
@@ -188,8 +281,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">Artmos</a> Design By : 
-					<a href="https://artmos.co.ke/">artmos solutions</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy;<script>document.write(new Date().getFullYear());</script><a href="#"> | Artmos</a> Design By :
+					<a href="https://html.design/">artmos solutions</a></p>
                 </div>
 
                 

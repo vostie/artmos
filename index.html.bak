@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Artmos Solutions- Best IT support and best cloud computing,to support all of your website & resources services in Kenya.</title>  
+    <title>Artmos Solutions- Best  and leading ICT  services and support and best cloud computing,to support all of your website & resources services in Kenya.</title>  
     <meta name="keywords" content="We build professional websites, web design projects, material/logo,designs and UI kits in Kenya">
     <meta name="description" content="Best in the hardware and network solutions in ICT">
     <meta name="author" content="Best in the hardware and network solutions">
@@ -91,18 +91,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index.html"><img src="images/logos/logo.png" alt="image"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="active" href="/index">Home</a></li>
+                        <li><a class="active" href="index.html">Home</a></li>
                        <li><a href="about-us.html">About us</a></li>
                         <li><a href="services.html">Our Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="features.html">Features</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li>
                       <!--  <li><a href="pricing.html">Pricing</a></li>-->
-						<li><a href="/contact">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -256,7 +256,7 @@
                     </div>
 					<div class="service-dit">
 						<h3>ICT Consultancy</h3>
-						<p>Online services that deals with Mobile apps development that ensures we walk with you everywhere.</p>
+						<p>We consult for high-end technology implementation at clients’ site or implementation according to the clients’ requirement.</p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -267,8 +267,8 @@
                         <img src="uploads/service_02.jpg" alt="" class="img-responsive img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Software and Web Design</h3>
-						<p>Online services that deals with Mobile apps development that ensures we walk with you everywhere. </p>
+						<h3>Software & Web Design</h3>
+						<p>With design and development expertise in diverse platforms,best-of-breed tools and techniques,combined with industry best practices </p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -279,7 +279,7 @@
                         <img src="uploads/service_03.jpg" alt="" class="img-responsive img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Mobile Optimization</h3>
+						<h3>Search Engine Optimization</h3>
 						<p>Online services that deals with Mobile apps development that ensures we walk with you everywhere.</p>
 					</div>
                 </div>
@@ -291,8 +291,21 @@
                         <img src="uploads/service_04.jpg" alt="" class="img-responsive img-rounded">
                     </div>
 					<div class="service-dit">
-						<h3>Digital Design for Mac</h3>
-						<p>Online services that deals with Mobile apps development that ensures we walk with you everywhere.</p>
+						<h3> Hardware Sales & Support  </h3>
+						<!--<p>Online services that deals with Mobile apps development that ensures we walk with you everywhere.</p>-->
+						    <p>We offer servers, computers, computer accessories and services by sourcing from local market and from international market as well.</p> 
+					</div>
+                </div>
+                <!-- end service -->
+				
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="uploads/service_02.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Infrastructures Services</h3>
+						<p> We enable clients to identify,develop,and implement the best-fit solutions equipped to meet their changing business requirements.</p>
 					</div>
                 </div>
                 <!-- end service -->
@@ -586,8 +599,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved.&copy;<script>document.write(new Date().getFullYear());</script><a href="#"> | Artmos</a> Design By :
-					<a href="https://artmos.co.ke/">artmos solutions</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; <script>document.write(new Date().getFullYear());</script><a href="#"> | </a> Design By :
+					<a href="https://artmos.co.ke/"> Artmos solutions</a></p>
                 </div>
 
                 
