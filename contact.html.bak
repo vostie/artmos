@@ -60,7 +60,7 @@
 							<a href="mailto:artmossolutions@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> artmossolutions@gmail.com</a>
 						</div>
 						<div class="phone-box">
-							<a href="tel:254724217497"><i class="fa fa-phone" aria-hidden="true"></i> +254 724 217 497</a>
+							<a href="tel:254724217497"><i class="fa fa-phone" aria-hidden="true"></i> +254 738 731 825</a>
 						</div>
 					</div>
 				</div>
@@ -171,15 +171,6 @@
                                         <option value="Others">Others</option>
                                     </select>
                                 </div>
-                                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <label class="sr-only">What is max price?</label>
-                                    <select name="select_price" id="select_price" class="selectpicker form-control" data-style="btn-white">
-                                       <option value="Select your price">Select your Price</option>                                       
-									   <option value="Ksh10000 - Ksh20000">Ksh10,000 - Ksh20,000</option>
-                                        <option value="Ksh20000 - Ksh40000">Ksh20,000 - Ksh40,000</option>
-                                        <option value="Ksh40000 - Ksh100000">Ksh40,000 - Ksh100,000</option>
-                                    </select>
-                                </div>-->
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.." required ""></textarea>
                                 </div>
@@ -215,8 +206,8 @@
 							<i class="icon icon-headphones"></i>
 						</div>
 						<h3>Call Us</h3>
-                        <p>0738 731 825
-                          <br>0738 731 825</p>
+                        <p>+254 738 731 825
+                          <br>+254 738 731 825</p>
 					</div>
 
 				</div>
@@ -281,8 +272,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy;<script>document.write(new Date().getFullYear());</script><a href="#"> | Artmos</a> Design By :
-					<a href="https://html.design/">artmos solutions</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; <script>document.write(new Date().getFullYear());</script><a href="#"> | </a> Design By :
+					<a href="https://artmos.co.ke/"> Artmos Solutions</a></p>
                 </div>
 
                 
